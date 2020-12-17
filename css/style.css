@@ -1,0 +1,274 @@
+/*
+    Developered by: Dwayne Perry
+    Projects 0: web50/search
+    email: dd.perry@hotmail.com
+*/
+/*select the body tag*/
+body {
+  margin: 0;
+  font-family: arial,sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+ header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ header ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+ header ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background: #f2f2f2;
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+nav ul li {
+  float: left;
+  padding: 0; 
+}
+
+nav li a {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul a:hover  {
+  text-decoration: underline;
+}
+
+.nav-right {
+  float: right;
+}
+
+#link-index {
+  margin-top: 6px;
+}
+
+#google-img {
+  height: 30px;
+  width: 100px;
+}
+
+#app {
+  height: 30px;
+  width: 30px;
+}
+
+.sign-in {
+  width: 100px;
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:12px 12px;
+  position:relative;
+  font-weight:bold;
+}
+
+#btn-sign-in {
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:8px 8px;
+  position:relative;
+  font-weight:bold;
+}
+
+#advanced-search-btn {
+  width: 150px;
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:8px 8px;
+  position:relative;
+  font-weight:bold;
+  margin-left: -180px;
+}
+
+p {
+  color: #df2020;
+  font-size: 20px;
+  padding-left: 40px; 
+}
+
+hr {
+  border-top: solid 1px #e4e4e4;
+}
+
+/* Advanced search grid layout. */
+.grid-container {
+  align-items: center;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 150px 600px 450px;
+  grid-gap: 4px;
+  padding-left: 30px;
+}
+.grid-item {
+  border: 0;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.grid-item:nth-child(3n+6){
+  font-size: 10px;
+  color: #666;
+}
+
+.grid-container input[type="text"] {
+  width: 97%;
+  padding: 5px;
+  border: 1px solid #c4c4c4;
+  border-width: thin;
+}
+
+#pages {
+  font-size: 16px;
+}
+
+#to-do{
+  font-weight: bold;
+  color: #666;
+}
+
+ .main-container {
+  margin-top: 140px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#image-text {
+  color: rgb(0, 140, 255);
+}
+
+#search-container{
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+#search-box {
+  width: 550px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-left: 30px;
+  border-radius:30px;
+  border: 1px solid #c4c4c4;
+  outline: 0;
+}
+
+#search-box:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-container input[type="submit"] {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 3px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 54px;
+  padding: 7px 16px;
+  margin: 0 6px;
+  outline: 0;
+}
+
+.main-container input[type="submit"]:hover {
+  border-color: #C6C6C6;
+  background-color: #F8F8F8;
+}
+
+#location {
+  display: block;
+  font-size: 14px;
+  padding: 14px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: solid 1px #e4e4e4;
+}
+
+/* Footer */
+footer  {
+  color: #666666;
+  background: #f2f2f2;
+  border-top: solid 1px #e4e4e4;
+  /*   position: fixed; */
+  padding-bottom: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer ul {
+  float: left;
+  padding: 0px;
+  height: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+footer ul li {
+  display: inline;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+footer ul li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-right {
+  float: right;
+}
+

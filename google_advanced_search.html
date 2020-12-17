@@ -1,0 +1,74 @@
+<!-- 
+    Developered by: Dwayne Perry
+    Projects 0: web50/search
+    email: dd.perry@hotmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="google_search.html"><img src="img/google.png" id="google-img"></a></li>
+                <div class="nav-right">
+                    <li ><a href="google_search.html" id="link-index">Google</a></li>
+                    <li><a href="#"><img src="img/app-icon.png" id="app"></a></li>
+                    <li><a href="https://accounts.google.com/"><button id="btn-sign-in" type="button">Sign in</button></a></li>
+                </div>
+            </ul>
+        </nav>
+        <p>Advanced Search<p>
+        <hr>
+        <br>
+        <!-- Form to submit data to Google server. -->
+        <form action="https://google.com/search" name="avdvanced_search">
+            <div class="grid-container">
+                <!-- row 1-->
+                <div class="grid-item" id="pages">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item" id="to-do">To do this in the search box.</div>
+                <!-- row 2-->
+                <div class="grid-item"><label for="input1">all these words:</label></div>
+                <div class="grid-item"> <input type="text" class="textinput" id="input1" value=""  name="as_q"></div>
+                <div class="grid-item 6"><label for="as_q">Type the important words:  tri-colour rat terrier</label></div>
+                <!-- row 3-->
+                <div class="grid-item"><label for="input2">this exact word or phrase: </label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="input2" value=""  name="as_epq"></div>
+                <div class="grid-item 9"><label for="as_epq">Put exact words in quotes: "rat terrier"</label></div>
+                <!-- row 4-->
+                <div class="grid-item"><label for="input3">any of this words: </label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="input3" value=""  name="as_oq"></div>
+                <div class="grid-item 12"><label for="as_oq">Type OR between all the words you want: miniature OR standard</label></div>
+                <!-- row 5-->
+                <div class="grid-item"><label for="input4">none of these words: </label></div>
+                <div class="grid-item"><input type="text" class="textinput" id="input4" value=""  name="as_eq"></div>
+                <div class="grid-item 15"><label for="as_eq">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label></div>
+                <!-- row 6-->
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"><input type="submit" value="advanced search" id="advanced-search-btn"></div>
+            </div>
+            <hr>
+        </form>
+       
+        <!-- Footer -->
+        <footer>
+            <div id="location">Jamaica</div>
+            <ul class="footer-left">
+                <li><a href="https://about.google/?">About</a></li> 
+                <li><a href="https://ads.google.com/">Advertising</a></li>
+                <li><a href="https://www.google.com/services/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li> 
+            </ul>
+            <ul class="footer-right">    
+                <li><a href="https://policies.google.com/">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>       
+        </footer>   
+    </body>
+</html>

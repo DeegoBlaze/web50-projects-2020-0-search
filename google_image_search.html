@@ -1,0 +1,58 @@
+
+<!-- 
+    Developered by: Dwayne Perry
+    Projects 0: web50/search
+    email: dd.perry@hotmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Images Search</title>
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="google_search.html">Google</a></li>
+                <li><a href="google_advanced_search.html">Advanced</a></li>
+                <li><a href="#"><img src="img/app-icon.png" id="app"></a></li>
+                <li><a href="https://accounts.google.com/"><button class="sign-in" type="button">Sign in</button></a></li>
+            </ul>
+        </header>
+
+        <!-- Main container for search bar. -->
+        <div class="main-container">
+            <!-- Form to submit data to Google image server. -->
+            <form action="http://images.google.com/images?" name="google_images">
+                <div id="logo">
+                    <img src="img/google.png">
+                    <span id="image-text">images</span>
+                </div>
+                <div id="search-container">
+                    <!-- Input input for search bar. -->
+                    <input type="text" name="q" id="search-box">
+                </div>
+                <div id="buttons">
+                    <input type="submit" name="submit" value="Google Search">
+                    <input type="submit" id="btnI" onclick="location.href='https://www.google.com/doodles/'"  value="I'm Feeling Lucky">  
+                </div>
+            </form>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div id="location">Jamaica</div>
+            <ul class="footer-left">
+                <li><a href="https://about.google/?">About</a></li> 
+                <li><a href="https://ads.google.com/">Advertising</a></li>
+                <li><a href="https://www.google.com/services/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li> 
+            </ul>
+            <ul class="footer-right">    
+                <li><a href="https://policies.google.com/">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>       
+        </footer>   
+    </body>
+</html>
